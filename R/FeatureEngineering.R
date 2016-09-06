@@ -219,12 +219,7 @@
         write.csv(tsneFeat,"tsne2dtest.csv",row.names = F)
         
         #write.csv(tsneFeat,"tsneXGBfull.csv",row.names = F) 
-#Svd
 
-        svd_out <- svd(trainmat) #xgb2
-        u <- svd_out$u
-        #library irlba for truncated svd
-        
 #Autoencoder
 
         #full xgb2
